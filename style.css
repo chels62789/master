@@ -54,10 +54,11 @@ body
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
-  margin-top: -10px;
-  position: fixed;
+	overflow:hiiden;
+  margin: auto;
+  position: wrap;
   width: 100%;
 } /*Here I added a squiggly bracket to close the nav style*/
 
@@ -69,10 +70,12 @@ section {
 h1 {
   font-family sans-serif;
   font-size: 2em;
+
 }
 
-.example, h3 {
-  padding-top: 30px;
+
+div.example, h3 {
+  padding-top: 50px;
   text-align center
 }
 
@@ -80,10 +83,7 @@ h3 {
   font-size: 1.3em;
 }
 
-.element {
+div.element1 {
   background-color: pink /* Here I changed the backround color to pink*/
-  height: 100px;
-  margin 10px 0;
-  width: 100%;
 
 } /*Here I added a squiggly bracket to close the element*/
